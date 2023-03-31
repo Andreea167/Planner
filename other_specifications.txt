@@ -1,0 +1,2 @@
+You also need to add node_modules folder.
+You need to generete and add your cliend Id and scope.

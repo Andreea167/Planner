@@ -1,0 +1,92 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  height: 100vh; 
+  width: 100%;
+  padding: 0 ;
+  margin: 0;
+  box-sizing: border-box;
+  background-image: url('./bk.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  color: #00E091;
+}
+.Start{
+  display: inline-block;
+  width: 450px;
+  height: 80px;
+  background-color: #00cc85;
+  border-radius: 30px;
+  padding: 10px;
+ 
+}
+
+.Time , .Timeend
+{
+  align-items: center;
+  display: inline-block;
+  width: 125px;
+  height: 60px;
+  color:#000000;
+ 
+  
+}
+.But{
+cursor: pointer;
+  width: 10.11rem;
+  padding: .77rem 0;
+  border-radius: 50px;
+  background-color: #00E091;
+  text-align: center;
+  font-size: .833rem;
+  transition: background-color .25s;
+  border: 0px;
+  color: #000000;
+  font-weight: 500;
+}
+
+.BSign{
+    cursor: pointer;
+      width: 10.11rem;
+      padding: .77rem 0;
+      border-radius: 50px;
+      background-color: #ffffff;
+      text-align: center;
+      font-size: .833rem;
+      transition: background-color .25s;
+      border: 0px;
+      color: #000000;
+      font-weight: 500;
+    }
+
+    .BIn{
+      
+        width: 10.11rem;
+        padding: .77rem 0;
+        border-radius: 50px;
+        background-color: #00E091;
+        text-align: center;
+        font-size: .833rem;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 0px;
+        color: #000000;
+        font-weight: 500;
+      }
+  
+
+
+@media only screen and (max-width: 1020px) {
+  .App {
+    align-items: center;
+    flex-direction: column;
+  }
+}
